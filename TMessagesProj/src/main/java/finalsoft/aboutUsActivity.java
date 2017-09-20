@@ -1,30 +1,29 @@
 package finalsoft;
 
 import android.content.Context;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
-import android.net.Uri;
-//import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
-import com.finalsoft.messenger.BuildConfig;
+
 import com.finalsoft.messenger.R;
+
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;
-import org.telegram.messenger.BuildVars;
 import org.telegram.messenger.LocaleController;
 import org.telegram.ui.ActionBar.ActionBar;
 import org.telegram.ui.ActionBar.BaseFragment;
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.LayoutHelper;
 
+//import android.support.v7.widget.CardView;
+
 
 public class aboutUsActivity extends BaseFragment {
-
+//
 
     @Override
     public boolean onFragmentCreate() {
