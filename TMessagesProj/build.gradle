@@ -79,7 +79,7 @@ android {
             v2SigningEnabled false
             keyAlias 'pp'
             keyPassword '!q2w3e4r'
-            storeFile file('E:/Programing/Phone/Android/jetGram3.18/TMessagesProj/config/release.keystore.jks')
+            storeFile file('E:/Programing/Phone/Android/mobograph/TMessagesProj/config/release.keystore.jks')
             storePassword '!q2w3e4r'
         }
     }
